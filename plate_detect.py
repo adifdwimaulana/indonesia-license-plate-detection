@@ -67,5 +67,5 @@ for i in np.arange(0, detections.shape[2]):
 	roi = image[startY:endY, startX:endX]
         
 # show the output image
-cv2.imshow("Output", roi)
+cv2.imshow("Output", image)
 cv2.waitKey(0)
